@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fond"
+    android:orientation="vertical"
+    android:scrollbarThumbHorizontal="@color/black"
+    tools:context=".Hitady">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fitadiavana hira"
+        android:textColor="@color/white"
+        android:layout_marginTop="-50dp"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:background="#FFF5EE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lohateny"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/lohateny"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="11"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/ch"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/chercher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:id="@+id/krismasy"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/krismasy" />
+
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:id="@+id/karemy"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/karemy" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:id="@+id/paka"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/paka" />
+
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:id="@+id/androtsotra"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/andro_tsotra" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:id="@+id/avant"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/avant" />
+
+        <ImageView
+            android:layout_marginRight="20dp"
+            android:id="@+id/pantekoty"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/pantekoty" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

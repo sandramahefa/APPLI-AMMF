@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">tonon-kira-AMMF</string>
+    <string name="item_default_lohateny">item_default_lohateny</string>
+    <string name="item_default_sokajy">item_default_sokajy</string>
+    <string-array name="sokajy">
+        <item>rehetra</item>
+        <item>miadana</item>
+        <item>milanto</item>
+    </string-array>
+</resources>
